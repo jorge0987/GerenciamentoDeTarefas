@@ -15,6 +15,7 @@ body {
 .container {
   border: 2px solid #fff;
   padding: 30px 40px;
+  margin: 0 auto;
 }
 
 .new-task-container {
@@ -29,7 +30,8 @@ body {
   flex-direction: column;
 }
 
-.new-task-container input, textarea {
+.new-task-container input,
+textarea {
   flex: 3;
   font-size: 1rem;
   border: 2px solid #d1d3d4;
@@ -38,7 +40,8 @@ body {
   font-weight: 500;
 }
 
-.new-task-container input:focus, textarea:focus {
+.new-task-container input:focus,
+textarea:focus {
   outline: none;
   border-color: #41b883;
 }
